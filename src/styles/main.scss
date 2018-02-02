@@ -1,0 +1,14 @@
+@import "colours";
+@import "normalize";
+@import "reset";
+@import "typography";
+@import "variables";
+
+.page {
+    padding: $margin*2;
+    background-color: $blue-1f;
+}
+
+.content {
+    flex-grow: 1;
+}
