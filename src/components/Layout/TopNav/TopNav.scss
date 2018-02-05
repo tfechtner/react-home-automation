@@ -1,0 +1,31 @@
+@import '../../../styles/_colours.scss';
+@import '../../../styles/_variables.scss';
+
+.TopNav {
+  flex-grow: 1;
+  margin-bottom: $margin*2;
+  padding: $margin;
+  border-radius: $border-radius;
+  background-color: $blue-39;
+
+  &__left {
+
+  }
+
+  &__right {
+    text-align: right;
+  }
+
+  &__connection {
+
+    &--connected {
+      color: $green
+    }
+    &--disconnected {
+      color: $red-light;
+    }
+    &--unknown {
+      color: $blue-50;
+    }
+  }
+}
