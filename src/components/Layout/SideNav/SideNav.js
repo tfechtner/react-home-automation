@@ -4,7 +4,7 @@ import './SideNav.css';
 class SideNav extends Component {
     render() {
         return (
-            <div className="col SideNav">
+            <div className="SideNav">
                 <ul className="SideNav__menu">
                     <li className="SideNav__menu--item">
                         <a className=""><i className="fa fa-2x fa-fw fa-home"></i></a>
