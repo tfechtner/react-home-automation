@@ -2,27 +2,28 @@
 @import '../../../styles/_variables.scss';
 
 .SideNav {
+    padding-right: $margin;
 
-  &__menu {
+    &__menu {
 
-    &--item {
-      margin-bottom: 1px;
+        &--item {
+            margin-bottom: 1px;
 
-      a {
-        display: block;
-        padding: $margin;
-        background-color: $blue-39;
-        &:hover {
-          background-color: $blue-50;
-          color: $white;
+            a {
+                display: block;
+                padding: $margin;
+                background-color: $blue-39;
+                &:hover {
+                    background-color: $blue-50;
+                    color: $white;
+                }
+            }
+
+            &:first-child {
+                a {
+                    border-radius: $border-radius $border-radius 0 0;
+                }
+            }
         }
-      }
-
-      &:first-child {
-        a {
-          border-radius: $border-radius $border-radius 0 0;
-        }
-      }
     }
-  }
 }

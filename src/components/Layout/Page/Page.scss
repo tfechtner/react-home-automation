@@ -2,6 +2,6 @@
 @import '../../../styles/_variables.scss';
 
 .Page {
-  padding: $margin*2;
-  background-color: $blue-1f;
+    padding: $margin $margin*2 $margin*2 $margin*2;
+    background-color: $blue-1f;
 }
